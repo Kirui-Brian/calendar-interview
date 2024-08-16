@@ -6,6 +6,7 @@ Welcome to the Calendar CRUD Operations task! This task is designed to assess yo
 ## 📝 Task Overview
 
 Your objective is to:
+
 - Create a fork of the codebase
 - Understand the given codebase.
 - Modify the relevant files to add CRUD operations for handling calendar events.
@@ -16,6 +17,7 @@ Your objective is to:
 ## 🔍 Assessment Criteria
 
 Your task will be assessed based on:
+
 1. **Database Connection**: Efficient and secure connection to the database.
 2. **Backend Implementation**: Clean and organized file structure.
 3. **API Development**: Robust and well-documented APIs for CRUD operations.
@@ -23,14 +25,21 @@ Your task will be assessed based on:
 
 ## 📂 Project Structure
 
-```
+```Project Structure
 calendar-crud-operations/
+├── api/
+│   ├── add_event.php/
+│   ├── delete_event.php/
+│   ├── fetch_event.php/
+│   ├── update_event.php/
 ├── assets/
 │   ├── css/
 │   ├── img/
 │   ├── js/
 │   ├── json/
 │   ├── vendor/
+├── config/
+│   ├── database.php
 ├── includes/
 │   ├── scripts.php
 │   ├── search_bar.php
@@ -46,27 +55,35 @@ calendar-crud-operations/
 ## 📖 API Documentation
 
 ### Add Event
-- **URL**: ``
+
+- **URL**: `/api/add_event.php`
 - **Method**: `POST`
+- **Description**: Adds a new event to the calendar.
 
 ### Fetch Events
-- **URL**: ``
+
+- **URL**: `/api/fetch_events.php`
 - **Method**: `GET`
+- **Description**: Fetches all events from the calendar.
 
 ### Update Event
-- **URL**: ``
+
+- **URL**: `/api/update_event.php`
 - **Method**: `PUT`
+- **Description**: Updates an existing event in the calendar.
 
 ### Delete Event
-- **URL**: ``
+
+- **URL**: `/api/delete_event.php`
 - **Method**: `DELETE`
+- **Description**: Deletes an event from the calendar.
 
 ## 💡 Tips for Success
 
-- Ensure your database connection is secure and handles errors gracefully.
+- Ensure your database connection is secure and handles errors gracefully (PDO or MySQLi - To handle errors gracefully)
 - Keep your code modular and organized for scalability.
 - Write clear and concise API documentation.
-- Test your API endpoints thoroughly.
+- Test your API endpoints thoroughly (Postman or Insomnia).
 
 ## 📬 Contact
 
