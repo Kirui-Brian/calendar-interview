@@ -80,10 +80,10 @@ calendar-crud-operations/
 
 ## 💡 Tips for Success
 
-- Ensure your database connection is secure and handles errors gracefully (PDO or MySQLi - To handle errors gracefully)
+- Ensure your database connection is secure and handles errors gracefully.
 - Keep your code modular and organized for scalability.
 - Write clear and concise API documentation.
-- Test your API endpoints thoroughly (Postman or Insomnia).
+- Test your API endpoints thoroughly.
 
 ## 📬 Contact
 
